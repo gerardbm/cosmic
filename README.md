@@ -6,9 +6,9 @@ Cosmic is a dark color scheme designed for use in terminals, following the style
 
 To use it in Vim/Neovim, check out the [vim-cosmic](https://github.com/gerardbm/vim-cosmic) repository.
 
-![Cosmic Lunar Screenshot](https://github.com/gerardbm/vim-cosmic/blob/master/img/Cosmic-Lunar-Mode.png)
+![Cosmic Lunar Screenshot](https://github.com/gerardbm/vim-cosmic/blob/master/img/screenshots/Cosmic-Lunar-Mode.png)
 
-![Cosmic Solar Screenshot](https://github.com/gerardbm/vim-cosmic/blob/master/img/Cosmic-Solar-Mode.png)
+![Cosmic Solar Screenshot](https://github.com/gerardbm/vim-cosmic/blob/master/img/screenshots/Cosmic-Solar-Mode.png)
 
 ### Color palette
 
