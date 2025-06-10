@@ -18,13 +18,29 @@ It comes with two modes: the dark mode, called **Lunar**, and the light one, cal
 
 **Lunar Mode**: base colors use the blue color (hue 222°).
 
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c1.png)
+
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c2.png)
+
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c3.png)
+
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c4.png)
+
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c5.png)
 
 **Solar Mode**: base colors use the orange color (hue 55°).
 
 Solar mode is useful when the screen receives a high illumination or we have to code in a bright environment. Our eyes will not have to adapt the light sensibility every time we look at the screen.
 
-![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c8)
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c6.png)
+
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c7.png)
+
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c8.png)
+
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c9.png)
+
+![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c0.png)
 
 ### Code editors and IDEs
 
