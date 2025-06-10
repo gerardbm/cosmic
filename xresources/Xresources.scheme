@@ -1,0 +1,16 @@
+#define base1 #01161D
+#define base2 #021D25
+#define base3 #78868D
+#define base4 #ACB5B9
+#define acr50 #FB7279
+#define aco50 #D88E20
+#define acg50 #79AD20
+#define acc50 #23B0A5
+#define acb50 #5A9FFA
+#define acv50 #D576FA
+#define acr70 #EF9DA0
+#define aco70 #EAA559
+#define acg70 #93C159
+#define acc70 #5FC3BA
+#define acb70 #95B4ED
+#define acv70 #D4A0ED
