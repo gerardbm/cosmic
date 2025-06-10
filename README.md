@@ -49,7 +49,3 @@ For more specific information, read the following articles:
 ## Font family
 
 Cosmic is designed to look good with any kind of typography, as colors are distinguishable to any thickness.
-
-## What about atomic color scheme
-
-Check the [old-atomic](https://github.com/gerardbm/old-atomic) repository for old colors (selected using different algorithms).

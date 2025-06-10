@@ -1,45 +1,30 @@
-### Atomic color schemes for URxvt and XTerm
+### Cosmic color schemes for URxvt and XTerm
 
 To use one of these color schemes, copy the content from one of these files to your `~/.Xresources`.
 
-- `Xresources.space_hc`  => Space Mode, high contrast (+3%)
-- `Xresources.space_mc`  => Space Mode, medium contrast (default)
-- `Xresources.space_lc`  => Space Mode, low contrast (-3%)
+- `Xresources.lunar_c1`  => Lunar Mode, very high contrast (+4%)
+- `Xresources.lunar_c2`  => Lunar Mode, high contrast (+2%)
+- `Xresources.lunar_c3`  => Lunar Mode, medium contrast (default)
+- `Xresources.lunar_c4`  => Lunar Mode, low contrast (-2%)
+- `Xresources.lunar_c5`  => Lunar Mode, very low contrast (-4%)
 
-- `Xresources.onion_hc`  => Onion Mode, high contrast (+3%)
-- `Xresources.onion_mc`  => Onion Mode, medium contrast (default)
-- `Xresources.onion_lc`  => Onion Mode, low contrast (-3%)
+- `Xresources.solar_c6`  => Solar Mode, very high contrast (+4%)
+- `Xresources.solar_c7`  => Solar Mode, high contrast (+2%)
+- `Xresources.solar_c8`  => Solar Mode, medium contrast (default)
+- `Xresources.solar_c9`  => Solar Mode, low contrast (-2%)
+- `Xresources.solar_c0`  => Solar Mode, very low contrast (-4%)
 
-- `Xresources.blood_hc`  => Blood Mode, high contrast (+3%)
-- `Xresources.blood_mc`  => Blood Mode, medium contrast (default)
-- `Xresources.blood_lc`  => Blood Mode, low contrast (-3%)
+If you use URxvt, you have the optional `Xresources.URxvtSwitch`. This file contains 10 commands to switch between the Lunar and Solar modes and their 5 contrast options, on the fly! This is the commands list:
 
-- `Xresources.night_hc`  => Night Mode, high contrast (+3%)
-- `Xresources.night_mc`  => Night Mode, medium contrast (default)
-- `Xresources.night_lc`  => Night Mode, low contrast (-3%)
-
-- `Xresources.grass_hc`  => Grass Mode, high contrast (+3%)
-- `Xresources.grass_mc`  => Grass Mode, medium contrast (default)
-- `Xresources.grass_lc`  => Grass Mode, low contrast (-3%)
-
-- `Xresources.ocean_hc`  => Ocean Mode, high contrast (+3%)
-- `Xresources.ocean_mc`  => Ocean Mode, medium contrast (default)
-- `Xresources.ocean_lc`  => Ocean Mode, low contrast (-3%)
-
-- `Xresources.light_hc`  => Light Mode, high contrast (+3%)
-- `Xresources.light_mc`  => Light Mode, medium contrast (default)
-- `Xresources.light_lc`  => Light Mode, low contrast (-3%)
-
-If you use URxvt, you have the optional `Xresources.URxvtSwitch`. This file contains 9 commands to switch between the Space, Night and Light modes and their 3 contrast options, on the fly! This is the commands list:
-
-- <kbd>CTRL</kbd>+<kbd>1</kbd> => Space Mode HC
-- <kbd>CTRL</kbd>+<kbd>2</kbd> => Space Mode MC
-- <kbd>CTRL</kbd>+<kbd>3</kbd> => Space Mode LC
-- <kbd>CTRL</kbd>+<kbd>4</kbd> => Night Mode HC
-- <kbd>CTRL</kbd>+<kbd>5</kbd> => Night Mode MC
-- <kbd>CTRL</kbd>+<kbd>6</kbd> => Night Mode LC
-- <kbd>CTRL</kbd>+<kbd>7</kbd> => Light Mode HC
-- <kbd>CTRL</kbd>+<kbd>8</kbd> => Light Mode MC
-- <kbd>CTRL</kbd>+<kbd>9</kbd> => Light Mode LC
+- <kbd>CTRL</kbd>+<kbd>1</kbd> => Lunar Mode C1
+- <kbd>CTRL</kbd>+<kbd>2</kbd> => Lunar Mode C2
+- <kbd>CTRL</kbd>+<kbd>3</kbd> => Lunar Mode C3
+- <kbd>CTRL</kbd>+<kbd>4</kbd> => Lunar Mode C4
+- <kbd>CTRL</kbd>+<kbd>5</kbd> => Lunar Mode C5
+- <kbd>CTRL</kbd>+<kbd>6</kbd> => Solar Mode C6
+- <kbd>CTRL</kbd>+<kbd>7</kbd> => Solar Mode C7
+- <kbd>CTRL</kbd>+<kbd>8</kbd> => Solar Mode C8
+- <kbd>CTRL</kbd>+<kbd>9</kbd> => Solar Mode C9
+- <kbd>CTRL</kbd>+<kbd>0</kbd> => Solar Mode C0
 
 Feel free to remap it to feed your needs.
