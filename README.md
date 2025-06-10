@@ -6,6 +6,10 @@ Cosmic is a dark color scheme designed for use in terminals, following the style
 
 To use it in Vim/Neovim, check out the [vim-cosmic](https://github.com/gerardbm/vim-cosmic) repository.
 
+![Cosmic Lunar Screenshot](https://github.com/gerardbm/vim-cosmic/blob/master/img/Cosmic-Lunar-Mode.png)
+
+![Cosmic Solar Screenshot](https://github.com/gerardbm/vim-cosmic/blob/master/img/Cosmic-Solar-Mode.png)
+
 ### Color palette
 
 The color palette consists of **sixteen precision colors** selected procedurally through algorithms. Colors are distributed across six distinct hues and four levels of perceived lightness, based on the perceptually uniform color space **HSLuv** —an alternative to HSL designed to better reflect human perception of color differences.
