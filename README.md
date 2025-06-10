@@ -2,9 +2,9 @@
 
 ### Multiple colors for multiple applications
 
-Cosmic is a dark color scheme designed for use in terminals, following the style of its predecessor, [Atomic](https://github.com/gerardbm/cosmic). This repository includes support for URxvt and XTerm. To use it in Vim/Neovim, check out the [vim-cosmic](https://github.com/gerardbm/vim-cosmic) repository.
+Cosmic is a dark color scheme designed for use in terminals, following the style of its predecessor, [Atomic](https://github.com/gerardbm/atomic). It was calculated using HSLuv and the CIEDE2000 Delta E (ΔE00) metric, while taking inspiration from the background color of [Solarized](https://github.com/altercation/solarized). This repository includes support for URxvt and XTerm.
 
-Colors were calculated using HSLuv and the CIEDE2000 Delta E (ΔE00) metric.
+To use it in Vim/Neovim, check out the [vim-cosmic](https://github.com/gerardbm/vim-cosmic) repository.
 
 ### Color palette
 
@@ -18,13 +18,23 @@ It comes with two modes: the dark mode, called **Lunar**, and the light one, cal
 
 **Lunar Mode**: base colors use the blue color (hue 222°).
 
+Contrast +4%:
+
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c1.png)
+
+Contrast +2%:
 
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c2.png)
 
+Contrast by default:
+
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c3.png)
 
+Contrast -2%:
+
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c4.png)
+
+Contrast -4%:
 
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-lunar-c5.png)
 
@@ -32,13 +42,23 @@ It comes with two modes: the dark mode, called **Lunar**, and the light one, cal
 
 Solar mode is useful when the screen receives a high illumination or we have to code in a bright environment. Our eyes will not have to adapt the light sensibility every time we look at the screen.
 
+Contrast +4%:
+
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c6.png)
+
+Contrast +2%:
 
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c7.png)
 
+Contrast by default:
+
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c8.png)
 
+Contrast -2%:
+
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c9.png)
+
+Contrast -4%:
 
 ![cosmic-scheme](https://github.com/gerardbm/cosmic/blob/master/img/cosmic-solar-c0.png)
 
