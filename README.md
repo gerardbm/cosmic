@@ -81,8 +81,7 @@ Cosmic color scheme for Vim and Neovim can be installed directly from the follow
 For more specific information, read the following articles:
 
 1. Installation for [terminals](https://github.com/gerardbm/cosmic/blob/master/INSTALL_TERM.md) (URxvt, XTerm).
-2. Installation for [code editors](https://github.com/gerardbm/cosmic/blob/master/INSTALL_EDITORS.md) (Vim, Neovim, vim-airline).
-3. Installation for [command-line tools](https://github.com/gerardbm/cosmic/blob/master/INSTALL_TOOLS.md) (cmus, irssi, mutt, vifm, zsh).
+2. Installation for [code editors](https://github.com/gerardbm/cosmic/blob/master/INSTALL_EDITORS.md) (Vim, Neovim).
 
 - - -
 
