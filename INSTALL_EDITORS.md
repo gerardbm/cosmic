@@ -27,7 +27,7 @@ Manually copy the file `cosmic.vim` contained into the `vim` directory of this r
 - (7) `CosmicSolarC7`: sets the solar mode (light background) in high contrast (+2%).
 - (8) `CosmicSolarC8`: sets the solar mode (light background) in medium contrast (default).
 - (9) `CosmicSolarC9`: sets the solar mode (light background) in low contrast (-2%).
-- (10) `CosmicSolarC10`: sets the solar mode (light background) in very low contrast (-4%).
+- (0) `CosmicSolarC0`: sets the solar mode (light background) in very low contrast (-4%).
 
 Or switch them depending on the current time. In your `.gvimrc`:
 
