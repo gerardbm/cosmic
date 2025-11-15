@@ -8,15 +8,20 @@
 #
 # -----------------------------------------------------------------------------
 #  Theme   : cosmic
-#  Version : 2.1.0
+#  Version : 1.0.0
 #  License : MIT
 #  Author  : Gerard Bajona
 #  URL     : https://github.com/gerardbm/cosmic
 # -----------------------------------------------------------------------------
 
+# Status
+function status() {
+	echo "%(?:%{$fg[cyan]%}λ:%{$fg[red]%}λ%s)"
+}
+
 # Status username
-function status_username() {
-	echo "%(?:%{$fg[green]%}%n:%{$fg[yellow]%}%n%s)"
+function username() {
+	echo "%n"
 }
 
 # Hostname
@@ -29,8 +34,15 @@ function get_pwd() {
 	echo "${PWD/$HOME/~}"
 }
 
+function cosmic_arrow() {
+	AA1="%{$FG[007]%}>"
+	AA2="%{$FG[006]%}>"
+	AA3="%{$FG[014]%}>"
+	echo "$AA1$AA2$AA3%{$reset_color%}"
+}
+
 # Git information
-function atomic_git() {
+function cosmic_git() {
 	ref=$(git symbolic-ref HEAD 2> /dev/null) || return
 	GIT_STATUS=$(git_prompt_status)
 	PREFIX=$ZSH_THEME_GIT_PROMPT_PREFIX
@@ -46,7 +58,7 @@ function atomic_git() {
 }
 
 # Git prompt: info
-GIT_PREFIX="\n- on %{$fg[cyan]%}git%{$reset_color%}:%{$fg_bold[cyan]%}"
+GIT_PREFIX="\n%{$fg[white]%}- git%{$reset_color%}:%{$fg_bold[cyan]%}"
 ZSH_THEME_GIT_PROMPT_PREFIX="${GIT_PREFIX}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
 
@@ -69,20 +81,21 @@ ZSH_THEME_GIT_PROMPT_DIVERGED="%{$fg[blue]%}/%{$reset_color%}"
 ZSH_THEME_GIT_PROMPT_EQUAL_REMOTE="%{$fg[blue]%}=%{$reset_color%}"
 
 # Git right prompt
-# function atomic_rprompt() {
+# function cosmic_rprompt() {
 #   SHORT_SHA=$(git_prompt_short_sha)
 #   if [[ -n $SHORT_SHA ]] && SHORT_SHA="$SHORT_SHA"; then
 #     echo "%{$fg[cyan]%}[$SHORT_SHA]"
 #   fi
 # }
 
+# %{$fg[cyan]%}$(username)\ # Excluded in this version
+
 # Prompt
 PROMPT='
-$(status_username) \
-%{$fg[default]%}at \
+$(status) \
+%{$fg[default]%}@\
 %{$fg[blue]%}$(hostname) \
-%{$fg[default]%}in \
 %{$fg_bold[yellow]%}$(get_pwd)%{$reset_color%} \
-$(atomic_git)» %{$reset_color%}'
+$(cosmic_git)$(cosmic_arrow) %{$reset_color%}'
 
-# RPROMPT='$(atomic_rprompt)%{$reset_color%}'
+# RPROMPT='$(cosmic_rprompt)%{$reset_color%}'
