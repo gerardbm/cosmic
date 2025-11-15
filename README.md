@@ -74,6 +74,15 @@ Contrast -4%:
 - [x] [Vim and Neovim](https://github.com/gerardbm/vim-cosmic)
 	- [x] Vim-airline (use **atomic** in [vim-airline](https://github.com/vim-airline/vim-airline))
 
+### Themes
+
+- [x] Cmus
+- [x] Irssi
+- [x] Mutt
+- [x] Rofi
+- [x] Vifm
+- [x] Zsh
+
 ## Installation
 
 Cosmic color scheme for Vim and Neovim can be installed directly from the following repository: [gerardbm/vim-cosmic](https://github.com/gerardbm/vim-cosmic).
@@ -82,10 +91,7 @@ For more specific information, read the following articles:
 
 1. Installation for [terminals](https://github.com/gerardbm/cosmic/blob/master/INSTALL_TERM.md) (URxvt, XTerm).
 2. Installation for [code editors](https://github.com/gerardbm/cosmic/blob/master/INSTALL_EDITORS.md) (Vim, Neovim).
-
-For other themes included on this repository:
-
-Copy `cosmic.rasi` to `~/.config/rofi/themes/`.
+3. Installation for [cli-tools](https://github.com/gerardbm/atomic/blob/master/INSTALL_TOOLS.md) (cmus, irssi, mutt, rofi, vifm, zsh).
 
 - - -
 
