@@ -80,6 +80,7 @@ Contrast -4%:
 - [x] Irssi
 - [x] Mutt
 - [x] Rofi
+- [x] Tty
 - [x] Vifm
 - [x] Zsh
 
@@ -91,7 +92,7 @@ For more specific information, read the following articles:
 
 1. Installation for [terminals](https://github.com/gerardbm/cosmic/blob/master/INSTALL_TERM.md) (URxvt, XTerm).
 2. Installation for [code editors](https://github.com/gerardbm/cosmic/blob/master/INSTALL_EDITORS.md) (Vim, Neovim).
-3. Installation for [cli-tools](https://github.com/gerardbm/atomic/blob/master/INSTALL_TOOLS.md) (cmus, irssi, mutt, rofi, vifm, zsh).
+3. Installation for [cli-tools](https://github.com/gerardbm/atomic/blob/master/INSTALL_TOOLS.md) (cmus, irssi, mutt, rofi, tty, vifm, zsh).
 
 - - -
 

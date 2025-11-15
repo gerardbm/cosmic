@@ -26,6 +26,17 @@ There are two ways:
 1. Copy the file `cosmic.rasi` to this directory: `~/.config/rofi/themes/`.
 2. Then, in your `config.rasi` insert this `@theme "cosmic"`.
 
+## Tty
+
+1. Copy the file `cosmic-tty.sh` to bin: `~/.local/bin/`.
+2. Source it in your `.zshrc`:
+
+```zsh
+if [[ -a ~/.local/bin/cosmic-tty.sh ]]; then
+    source ~/.local/bin/cosmic-tty.sh
+fi
+```
+
 ## Vifm
 
 1. Copy the file `cosmic.vifm` to this directory: `~/.config/vifm/colors/`.
