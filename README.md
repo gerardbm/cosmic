@@ -83,7 +83,9 @@ For more specific information, read the following articles:
 1. Installation for [terminals](https://github.com/gerardbm/cosmic/blob/master/INSTALL_TERM.md) (URxvt, XTerm).
 2. Installation for [code editors](https://github.com/gerardbm/cosmic/blob/master/INSTALL_EDITORS.md) (Vim, Neovim).
 
-For other themes included on this repository (i.e., rofi), use `stow`.
+For other themes included on this repository:
+
+Copy `cosmic.rasi` to `~/.config/rofi/themes/`.
 
 - - -
 
